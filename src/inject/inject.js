@@ -9,7 +9,7 @@ let stopScrolling = false,
 const INTERVAL = 400;
 
 // retries before it decides it's stuck
-const STUCK_RETRIES = 30;
+const STUCK_RETRIES = 1000000;
 
 // variables for stuck feature checking
 let previousMaxElemHeight = 0,
